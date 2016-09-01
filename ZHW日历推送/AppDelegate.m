@@ -7,16 +7,24 @@
 //
 
 #import "AppDelegate.h"
+#import "ZHWWindowController.h"
 
 @interface AppDelegate ()
 
-@property (weak) IBOutlet NSWindow *window;
+@property (nonatomic ,strong) ZHWWindowController  *window;
+
 @end
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    
+    self.window = [[ZHWWindowController alloc]initWithWindowNibName:@"ZHWWindowController"];
+    
+    [[self.window window] center];
+    
+    [self.window showWindow:nil];
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {

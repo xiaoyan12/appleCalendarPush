@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		076AAAD61BCB1B19F036BD66 /* libPods-ZHW日历推送.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5751AB9D392367CDC5C2D602 /* libPods-ZHW日历推送.a */; };
+		28A92AA0CD7CA982FD0FA99E /* libPods-ZHW日历推送Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3878F6F8070C0B1F2AD3CAC /* libPods-ZHW日历推送Tests.a */; };
 		3C02643F1D76B9FA00915CEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C02643E1D76B9FA00915CEE /* AppDelegate.m */; };
 		3C0264421D76B9FA00915CEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0264411D76B9FA00915CEE /* main.m */; };
 		3C0264441D76B9FA00915CEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C0264431D76B9FA00915CEE /* Assets.xcassets */; };
 		3C0264471D76B9FA00915CEE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C0264451D76B9FA00915CEE /* MainMenu.xib */; };
 		3C0264521D76B9FA00915CEE /* ZHW____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0264511D76B9FA00915CEE /* ZHW____Tests.m */; };
 		3C02645D1D76B9FA00915CEE /* ZHW____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C02645C1D76B9FA00915CEE /* ZHW____UITests.m */; };
+		3C02646B1D76BAAC00915CEE /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C02646A1D76BAAC00915CEE /* EventKit.framework */; };
+		3C02646E1D76BAEF00915CEE /* ZHWWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C02646D1D76BAEF00915CEE /* ZHWWindowController.m */; };
+		3C0264701D76BC6F00915CEE /* apple.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 3C02646F1D76BC6F00915CEE /* apple.scpt */; };
+		3C0264721D76BD0E00915CEE /* ZHWWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C0264711D76BD0E00915CEE /* ZHWWindowController.xib */; };
+		54AFB1C02AF4B6F60521B8F8 /* libPods-ZHW日历推送UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF0F537992869E61CB7212A /* libPods-ZHW日历推送UITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CF0F537992869E61CB7212A /* libPods-ZHW日历推送UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZHW日历推送UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C02643A1D76B9FA00915CEE /* ZHW日历推送.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZHW日历推送.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C02643D1D76B9FA00915CEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3C02643E1D76B9FA00915CEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,6 +54,19 @@
 		3C0264581D76B9FA00915CEE /* ZHW日历推送UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZHW日历推送UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C02645C1D76B9FA00915CEE /* ZHW____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ZHW____UITests.m"; sourceTree = "<group>"; };
 		3C02645E1D76B9FA00915CEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C02646A1D76BAAC00915CEE /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		3C02646C1D76BAEF00915CEE /* ZHWWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHWWindowController.h; sourceTree = "<group>"; };
+		3C02646D1D76BAEF00915CEE /* ZHWWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHWWindowController.m; sourceTree = "<group>"; };
+		3C02646F1D76BC6F00915CEE /* apple.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = apple.scpt; sourceTree = "<group>"; };
+		3C0264711D76BD0E00915CEE /* ZHWWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZHWWindowController.xib; sourceTree = "<group>"; };
+		3D1EC0E92637BBDD0116F148 /* Pods-ZHW日历推送UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHW日历推送UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZHW日历推送UITests/Pods-ZHW日历推送UITests.release.xcconfig"; sourceTree = "<group>"; };
+		4D188A3C1FD0FFA4F4D4CD2E /* Pods-ZHW日历推送Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHW日历推送Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZHW日历推送Tests/Pods-ZHW日历推送Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5751AB9D392367CDC5C2D602 /* libPods-ZHW日历推送.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZHW日历推送.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67D1072E227536E6BDF9CFB0 /* Pods-ZHW日历推送.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHW日历推送.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZHW日历推送/Pods-ZHW日历推送.debug.xcconfig"; sourceTree = "<group>"; };
+		6DD1664A1B22D13DB23BA221 /* Pods-ZHW日历推送UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHW日历推送UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZHW日历推送UITests/Pods-ZHW日历推送UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		836B7B61FB9631B91D319B94 /* Pods-ZHW日历推送Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHW日历推送Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZHW日历推送Tests/Pods-ZHW日历推送Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3878F6F8070C0B1F2AD3CAC /* libPods-ZHW日历推送Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZHW日历推送Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE08D18D5E4B00F66924D87C /* Pods-ZHW日历推送.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHW日历推送.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZHW日历推送/Pods-ZHW日历推送.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C02646B1D76BAAC00915CEE /* EventKit.framework in Frameworks */,
+				076AAAD61BCB1B19F036BD66 /* libPods-ZHW日历推送.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28A92AA0CD7CA982FD0FA99E /* libPods-ZHW日历推送Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,19 +91,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54AFB1C02AF4B6F60521B8F8 /* libPods-ZHW日历推送UITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CDC61CC42B6C9767F9C33CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C02646A1D76BAAC00915CEE /* EventKit.framework */,
+				5751AB9D392367CDC5C2D602 /* libPods-ZHW日历推送.a */,
+				A3878F6F8070C0B1F2AD3CAC /* libPods-ZHW日历推送Tests.a */,
+				0CF0F537992869E61CB7212A /* libPods-ZHW日历推送UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3C0264311D76B9FA00915CEE = {
 			isa = PBXGroup;
 			children = (
+				3C02646F1D76BC6F00915CEE /* apple.scpt */,
 				3C02643C1D76B9FA00915CEE /* ZHW日历推送 */,
 				3C0264501D76B9FA00915CEE /* ZHW日历推送Tests */,
 				3C02645B1D76B9FA00915CEE /* ZHW日历推送UITests */,
 				3C02643B1D76B9FA00915CEE /* Products */,
+				D8D192BAECA25838C8A0EE51 /* Pods */,
+				1CDC61CC42B6C9767F9C33CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +137,9 @@
 			children = (
 				3C02643D1D76B9FA00915CEE /* AppDelegate.h */,
 				3C02643E1D76B9FA00915CEE /* AppDelegate.m */,
+				3C02646C1D76BAEF00915CEE /* ZHWWindowController.h */,
+				3C02646D1D76BAEF00915CEE /* ZHWWindowController.m */,
+				3C0264711D76BD0E00915CEE /* ZHWWindowController.xib */,
 				3C0264431D76B9FA00915CEE /* Assets.xcassets */,
 				3C0264451D76B9FA00915CEE /* MainMenu.xib */,
 				3C0264481D76B9FA00915CEE /* Info.plist */,
@@ -132,6 +174,19 @@
 			path = "ZHW日历推送UITests";
 			sourceTree = "<group>";
 		};
+		D8D192BAECA25838C8A0EE51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67D1072E227536E6BDF9CFB0 /* Pods-ZHW日历推送.debug.xcconfig */,
+				EE08D18D5E4B00F66924D87C /* Pods-ZHW日历推送.release.xcconfig */,
+				836B7B61FB9631B91D319B94 /* Pods-ZHW日历推送Tests.debug.xcconfig */,
+				4D188A3C1FD0FFA4F4D4CD2E /* Pods-ZHW日历推送Tests.release.xcconfig */,
+				6DD1664A1B22D13DB23BA221 /* Pods-ZHW日历推送UITests.debug.xcconfig */,
+				3D1EC0E92637BBDD0116F148 /* Pods-ZHW日历推送UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C0264611D76B9FA00915CEE /* Build configuration list for PBXNativeTarget "ZHW日历推送" */;
 			buildPhases = (
+				53B4F8C53CEC6AC242A70587 /* [CP] Check Pods Manifest.lock */,
 				3C0264361D76B9FA00915CEE /* Sources */,
 				3C0264371D76B9FA00915CEE /* Frameworks */,
 				3C0264381D76B9FA00915CEE /* Resources */,
+				68AFF6AE0D7F8CBD89B7388F /* [CP] Embed Pods Frameworks */,
+				B9DC0B7815B362F1CE4C9415 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C0264641D76B9FA00915CEE /* Build configuration list for PBXNativeTarget "ZHW日历推送Tests" */;
 			buildPhases = (
+				9A31745787AC8068C84E134A /* [CP] Check Pods Manifest.lock */,
 				3C0264491D76B9FA00915CEE /* Sources */,
 				3C02644A1D76B9FA00915CEE /* Frameworks */,
 				3C02644B1D76B9FA00915CEE /* Resources */,
+				07729705D174A4B70782CA65 /* [CP] Embed Pods Frameworks */,
+				5E4EA812E6B29F625DA1B8D0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +235,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C0264671D76B9FA00915CEE /* Build configuration list for PBXNativeTarget "ZHW日历推送UITests" */;
 			buildPhases = (
+				626978A2A9A59F20B33BBAC7 /* [CP] Check Pods Manifest.lock */,
 				3C0264541D76B9FA00915CEE /* Sources */,
 				3C0264551D76B9FA00915CEE /* Frameworks */,
 				3C0264561D76B9FA00915CEE /* Resources */,
+				F051369B5382F8C3527633E9 /* [CP] Embed Pods Frameworks */,
+				CF047BA1A19B337FEB50F9B7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +299,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C0264701D76BC6F00915CEE /* apple.scpt in Resources */,
+				3C0264721D76BD0E00915CEE /* ZHWWindowController.xib in Resources */,
 				3C0264441D76B9FA00915CEE /* Assets.xcassets in Resources */,
 				3C0264471D76B9FA00915CEE /* MainMenu.xib in Resources */,
 			);
@@ -256,11 +322,150 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07729705D174A4B70782CA65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZHW日历推送Tests/Pods-ZHW日历推送Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53B4F8C53CEC6AC242A70587 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5E4EA812E6B29F625DA1B8D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZHW日历推送Tests/Pods-ZHW日历推送Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		626978A2A9A59F20B33BBAC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		68AFF6AE0D7F8CBD89B7388F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZHW日历推送/Pods-ZHW日历推送-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A31745787AC8068C84E134A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B9DC0B7815B362F1CE4C9415 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZHW日历推送/Pods-ZHW日历推送-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF047BA1A19B337FEB50F9B7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZHW日历推送UITests/Pods-ZHW日历推送UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F051369B5382F8C3527633E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZHW日历推送UITests/Pods-ZHW日历推送UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3C0264361D76B9FA00915CEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C02646E1D76BAEF00915CEE /* ZHWWindowController.m in Sources */,
 				3C0264421D76B9FA00915CEE /* main.m in Sources */,
 				3C02643F1D76B9FA00915CEE /* AppDelegate.m in Sources */,
 			);
@@ -392,8 +597,10 @@
 		};
 		3C0264621D76B9FA00915CEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67D1072E227536E6BDF9CFB0 /* Pods-ZHW日历推送.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "ZHW日历推送/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -404,8 +611,10 @@
 		};
 		3C0264631D76B9FA00915CEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE08D18D5E4B00F66924D87C /* Pods-ZHW日历推送.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "ZHW日历推送/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -416,6 +625,7 @@
 		};
 		3C0264651D76B9FA00915CEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 836B7B61FB9631B91D319B94 /* Pods-ZHW日历推送Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -429,6 +639,7 @@
 		};
 		3C0264661D76B9FA00915CEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D188A3C1FD0FFA4F4D4CD2E /* Pods-ZHW日历推送Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -442,6 +653,7 @@
 		};
 		3C0264681D76B9FA00915CEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DD1664A1B22D13DB23BA221 /* Pods-ZHW日历推送UITests.debug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "ZHW日历推送UITests/Info.plist";
@@ -454,6 +666,7 @@
 		};
 		3C0264691D76B9FA00915CEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D1EC0E92637BBDD0116F148 /* Pods-ZHW日历推送UITests.release.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "ZHW日历推送UITests/Info.plist";
@@ -483,6 +696,7 @@
 				3C0264631D76B9FA00915CEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C0264641D76B9FA00915CEE /* Build configuration list for PBXNativeTarget "ZHW日历推送Tests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +705,7 @@
 				3C0264661D76B9FA00915CEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C0264671D76B9FA00915CEE /* Build configuration list for PBXNativeTarget "ZHW日历推送UITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +714,7 @@
 				3C0264691D76B9FA00915CEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

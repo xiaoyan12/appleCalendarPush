@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01D310E2DAC58192E209FFA896339578 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD122039EE9566880C1E722C9E92126 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B570DE4FB41EE8963514154DE380813 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = D8FA19FF65B27F1F7C03C6896F73D2A8 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		147132EB8ECC0C9A2997455B4875B27A /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 45A54ADCEBD7B22F118C7DE35AFBF4E8 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C0E1B2717D5394E78AD7114040BF551 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F140ECEDE9C9415402ACA029D0EC3F0A /* AFURLSessionManager.m */; };
+		3455BE0F9A1389D9FEEDFB3753DC6404 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = F636594A22EC6E40A4156C3BD7CAA8FB /* AFURLRequestSerialization.m */; };
+		36DA415D346CFD10C5653F546824FF6C /* Pods-ZHW日历推送UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D1BB55C6783C556FC5711265BE2FB2 /* Pods-ZHW日历推送UITests-dummy.m */; };
+		4CD3642B812E501998987D3455C4508C /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 42F6E6E338A073C0748B0138A1A0F0F1 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FF427F1B374DA3EE07592845D35F18D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3BEBF7BEF557C081CC502A5034798E /* Cocoa.framework */; };
+		607E909A1FE0E95FBB7B2E7099262A47 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE5FAA06A91AF25EFB467128C945F20 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		744BDA42C38330C1E88ECA1FECBFE660 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F1FCE00E54F9374A0E514710120CB7F /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DA58739CA331CD3D72C93253F7BF845 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D53EC458B4BE9AA6BDC8F5BDB7A2E7D /* CoreServices.framework */; };
+		836F301F519FA638939BC9182EE58B23 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3BEBF7BEF557C081CC502A5034798E /* Cocoa.framework */; };
+		8F377EF0B7A53F1F4E732E1CF0553D2E /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 13A3389CD8EBC2A4AE4DDA2F9923DA15 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		943B0E841BCF6F8764BDE61E88B6384D /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B666A33E8933523C2A07B65B7347842 /* AFNetworkReachabilityManager.m */; };
+		AC3DA17AB7E04A3A235587CDB30155BF /* Pods-ZHW日历推送-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7056538BA78BCC456A4253F1D7CDD0 /* Pods-ZHW日历推送-dummy.m */; };
+		AEE9A30AE27F735C016C1052B8037D87 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02323DEC4A5425BCDDABB3F04A124984 /* AFNetworking-dummy.m */; };
+		CBAB0B0CDFF8A4B276850AF1681CDF5F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A9EB39F6D19FD376CA50B8343B4D85 /* SystemConfiguration.framework */; };
+		CC749AC3BA2B4D4B0F1400CF3CCBDEE0 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53667E7BF72274E23DF67BB6C79EDFCE /* AFSecurityPolicy.m */; };
+		DE2A7971F680C250D5347F5B96B680A0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3BEBF7BEF557C081CC502A5034798E /* Cocoa.framework */; };
+		DF3186AC1CC6D5165980332A008E9956 /* Pods-ZHW日历推送Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6700258EB7E1D7A2CF60F2CE683599B8 /* Pods-ZHW日历推送Tests-dummy.m */; };
+		ED94AB4EE1CCEBDFCA0B924DC61C700C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A85003EE2CC0930B99C0F0636F575956 /* Security.framework */; };
+		EED4D75C88BE775C747FEB866A070A96 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EC6ACABB851A78DA682141B44D7357 /* AFURLResponseSerialization.m */; };
+		F2972C1C4391A8DAC690E66338E768D3 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D7C5926219E105CF9A92418FD65526 /* AFHTTPSessionManager.m */; };
+		FF1138BE4D3E134285650C8805F58591 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3BEBF7BEF557C081CC502A5034798E /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F27CA9C79B467A3BB86246BF7FF9F5D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1CD54B521C05F64664B50B361E42A34;
+			remoteInfo = AFNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02323DEC4A5425BCDDABB3F04A124984 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		075FB299297922FF20F76DD4146F7354 /* Pods-ZHW日历推送-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZHW日历推送-acknowledgements.markdown"; sourceTree = "<group>"; };
+		136758EBF364FA1197E24954390A190A /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		13A3389CD8EBC2A4AE4DDA2F9923DA15 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		17AE4797FCEDD22C852ED562E2B40C16 /* Pods-ZHW日历推送Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZHW日历推送Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2D7056538BA78BCC456A4253F1D7CDD0 /* Pods-ZHW日历推送-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZHW日历推送-dummy.m"; sourceTree = "<group>"; };
+		42F6E6E338A073C0748B0138A1A0F0F1 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		45A54ADCEBD7B22F118C7DE35AFBF4E8 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		462B20D079DB25179B926210927D7D89 /* Pods-ZHW日历推送UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZHW日历推送UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		53667E7BF72274E23DF67BB6C79EDFCE /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		5595B941500127512821BAD69B7AEEBE /* Pods-ZHW日历推送UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZHW日历推送UITests.release.xcconfig"; sourceTree = "<group>"; };
+		60D1BB55C6783C556FC5711265BE2FB2 /* Pods-ZHW日历推送UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZHW日历推送UITests-dummy.m"; sourceTree = "<group>"; };
+		6700258EB7E1D7A2CF60F2CE683599B8 /* Pods-ZHW日历推送Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZHW日历推送Tests-dummy.m"; sourceTree = "<group>"; };
+		68D7C5926219E105CF9A92418FD65526 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		75F87DAEC6D66328BC28AFD14E3E028D /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B666A33E8933523C2A07B65B7347842 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		800ADDA9CED82078F2E615E0344FBE02 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		83A8D8E75FEA72648EF95B81308DAEF8 /* Pods-ZHW日历推送UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZHW日历推送UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8D53EC458B4BE9AA6BDC8F5BDB7A2E7D /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		8F1FCE00E54F9374A0E514710120CB7F /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		8F60F33034D1CF76D658DE3807E2C5C4 /* Pods-ZHW日历推送.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZHW日历推送.release.xcconfig"; sourceTree = "<group>"; };
+		90EA3C682D92E30BE2A3B63752441558 /* libPods-ZHW日历推送UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZHW日历推送UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A9EB39F6D19FD376CA50B8343B4D85 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FE5FAA06A91AF25EFB467128C945F20 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		A2EC6ACABB851A78DA682141B44D7357 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		A85003EE2CC0930B99C0F0636F575956 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		AE5A84D5510E15AB5E6B732B7DCB00C6 /* libPods-ZHW日历推送Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZHW日历推送Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B008583A2CB65F6D587432787435B3AB /* Pods-ZHW日历推送-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZHW日历推送-frameworks.sh"; sourceTree = "<group>"; };
+		B721E87C5D87CA7D452EDD50CB847364 /* Pods-ZHW日历推送Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZHW日历推送Tests-resources.sh"; sourceTree = "<group>"; };
+		CA3BEBF7BEF557C081CC502A5034798E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		CCF25EEC64EEA3CD873251EEBF4A779B /* Pods-ZHW日历推送.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZHW日历推送.debug.xcconfig"; sourceTree = "<group>"; };
+		CE26C021AF9E243EEB52552AF8AFB838 /* Pods-ZHW日历推送UITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZHW日历推送UITests-frameworks.sh"; sourceTree = "<group>"; };
+		CE8A67613B4584FFE5817B03A3FCB8BA /* Pods-ZHW日历推送Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZHW日历推送Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D09C2E69E9222F9AD585CF679B1A2580 /* Pods-ZHW日历推送Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZHW日历推送Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D8FA19FF65B27F1F7C03C6896F73D2A8 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		DA2E93053F2498E571B1E383B7EEB533 /* Pods-ZHW日历推送UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZHW日历推送UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DDDAC71C4CA90AA0A716B5EDD34D1490 /* Pods-ZHW日历推送UITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZHW日历推送UITests-resources.sh"; sourceTree = "<group>"; };
+		E7ED023ECC32857338C6EAE764B28CC8 /* Pods-ZHW日历推送-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZHW日历推送-acknowledgements.plist"; sourceTree = "<group>"; };
+		EA1AA676D82F0BE5F9DBA4572723A048 /* Pods-ZHW日历推送-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZHW日历推送-resources.sh"; sourceTree = "<group>"; };
+		EAD122039EE9566880C1E722C9E92126 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		EB3AEEB35835BB25FFD0C4D7BB010EAD /* libPods-ZHW日历推送.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZHW日历推送.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F140ECEDE9C9415402ACA029D0EC3F0A /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		F636594A22EC6E40A4156C3BD7CAA8FB /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		F66CFCD2AA57CE97674C536BE9CDE907 /* Pods-ZHW日历推送Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZHW日历推送Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F76633C4CED717CCCF64A332BEFC6D0E /* Pods-ZHW日历推送Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZHW日历推送Tests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E25C63BE702465796E99999F6088CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2A7971F680C250D5347F5B96B680A0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63243CA3A09C09B255EA3D9C53AEEED3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1138BE4D3E134285650C8805F58591 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B550EA12C166400B63E74BE77E1D984B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836F301F519FA638939BC9182EE58B23 /* Cocoa.framework in Frameworks */,
+				7DA58739CA331CD3D72C93253F7BF845 /* CoreServices.framework in Frameworks */,
+				ED94AB4EE1CCEBDFCA0B924DC61C700C /* Security.framework in Frameworks */,
+				CBAB0B0CDFF8A4B276850AF1681CDF5F /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB18BB9BCCF9AB5BAC98D39A0785E729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FF427F1B374DA3EE07592845D35F18D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01F4B500E9E2C60E238D55D89391CE03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83695E72386E084AA5E9CD8FB4FC30AE /* AFNetworking */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		59D113A24039D90024C135C345DAAEFA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C35FDA3CB4431988E0FC7EF0E61B632 /* Pods-ZHW日历推送 */,
+				DEE0887B2F0EEC9B683AFD2281C6662D /* Pods-ZHW日历推送Tests */,
+				8D9FCD7D7EBB23FFEB596BC078A1E484 /* Pods-ZHW日历推送UITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6C35FDA3CB4431988E0FC7EF0E61B632 /* Pods-ZHW日历推送 */ = {
+			isa = PBXGroup;
+			children = (
+				075FB299297922FF20F76DD4146F7354 /* Pods-ZHW日历推送-acknowledgements.markdown */,
+				E7ED023ECC32857338C6EAE764B28CC8 /* Pods-ZHW日历推送-acknowledgements.plist */,
+				2D7056538BA78BCC456A4253F1D7CDD0 /* Pods-ZHW日历推送-dummy.m */,
+				B008583A2CB65F6D587432787435B3AB /* Pods-ZHW日历推送-frameworks.sh */,
+				EA1AA676D82F0BE5F9DBA4572723A048 /* Pods-ZHW日历推送-resources.sh */,
+				CCF25EEC64EEA3CD873251EEBF4A779B /* Pods-ZHW日历推送.debug.xcconfig */,
+				8F60F33034D1CF76D658DE3807E2C5C4 /* Pods-ZHW日历推送.release.xcconfig */,
+			);
+			name = "Pods-ZHW日历推送";
+			path = "Target Support Files/Pods-ZHW日历推送";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				CD75D5B60FCA72FBF7F9C770460B2C26 /* Frameworks */,
+				01F4B500E9E2C60E238D55D89391CE03 /* Pods */,
+				C2D17567A1E5CD9CECFA0361E3261A4F /* Products */,
+				59D113A24039D90024C135C345DAAEFA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		812CCCF15169204DE52ED968AE808055 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				9FE5FAA06A91AF25EFB467128C945F20 /* AFNetworkReachabilityManager.h */,
+				7B666A33E8933523C2A07B65B7347842 /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		83695E72386E084AA5E9CD8FB4FC30AE /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				8F1FCE00E54F9374A0E514710120CB7F /* AFNetworking.h */,
+				FB3175C5B53D0CE81FD51D9CFB404CF1 /* NSURLSession */,
+				812CCCF15169204DE52ED968AE808055 /* Reachability */,
+				BCFFCB7F80F84DDD8B1C804C9427A81D /* Security */,
+				D324314B5857BBF1B6716C0BEAD3D905 /* Serialization */,
+				BBF14398B269214716276E757333B57C /* Support Files */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		8D9FCD7D7EBB23FFEB596BC078A1E484 /* Pods-ZHW日历推送UITests */ = {
+			isa = PBXGroup;
+			children = (
+				462B20D079DB25179B926210927D7D89 /* Pods-ZHW日历推送UITests-acknowledgements.markdown */,
+				83A8D8E75FEA72648EF95B81308DAEF8 /* Pods-ZHW日历推送UITests-acknowledgements.plist */,
+				60D1BB55C6783C556FC5711265BE2FB2 /* Pods-ZHW日历推送UITests-dummy.m */,
+				CE26C021AF9E243EEB52552AF8AFB838 /* Pods-ZHW日历推送UITests-frameworks.sh */,
+				DDDAC71C4CA90AA0A716B5EDD34D1490 /* Pods-ZHW日历推送UITests-resources.sh */,
+				DA2E93053F2498E571B1E383B7EEB533 /* Pods-ZHW日历推送UITests.debug.xcconfig */,
+				5595B941500127512821BAD69B7AEEBE /* Pods-ZHW日历推送UITests.release.xcconfig */,
+			);
+			name = "Pods-ZHW日历推送UITests";
+			path = "Target Support Files/Pods-ZHW日历推送UITests";
+			sourceTree = "<group>";
+		};
+		BBF14398B269214716276E757333B57C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				800ADDA9CED82078F2E615E0344FBE02 /* AFNetworking.xcconfig */,
+				02323DEC4A5425BCDDABB3F04A124984 /* AFNetworking-dummy.m */,
+				136758EBF364FA1197E24954390A190A /* AFNetworking-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		BCFFCB7F80F84DDD8B1C804C9427A81D /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				D8FA19FF65B27F1F7C03C6896F73D2A8 /* AFSecurityPolicy.h */,
+				53667E7BF72274E23DF67BB6C79EDFCE /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		C2D17567A1E5CD9CECFA0361E3261A4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75F87DAEC6D66328BC28AFD14E3E028D /* libAFNetworking.a */,
+				EB3AEEB35835BB25FFD0C4D7BB010EAD /* libPods-ZHW日历推送.a */,
+				AE5A84D5510E15AB5E6B732B7DCB00C6 /* libPods-ZHW日历推送Tests.a */,
+				90EA3C682D92E30BE2A3B63752441558 /* libPods-ZHW日历推送UITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD75D5B60FCA72FBF7F9C770460B2C26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D916669A5229E5E44B5B36A5F25A99B0 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D324314B5857BBF1B6716C0BEAD3D905 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				13A3389CD8EBC2A4AE4DDA2F9923DA15 /* AFURLRequestSerialization.h */,
+				F636594A22EC6E40A4156C3BD7CAA8FB /* AFURLRequestSerialization.m */,
+				EAD122039EE9566880C1E722C9E92126 /* AFURLResponseSerialization.h */,
+				A2EC6ACABB851A78DA682141B44D7357 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		D916669A5229E5E44B5B36A5F25A99B0 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				CA3BEBF7BEF557C081CC502A5034798E /* Cocoa.framework */,
+				8D53EC458B4BE9AA6BDC8F5BDB7A2E7D /* CoreServices.framework */,
+				A85003EE2CC0930B99C0F0636F575956 /* Security.framework */,
+				91A9EB39F6D19FD376CA50B8343B4D85 /* SystemConfiguration.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		DEE0887B2F0EEC9B683AFD2281C6662D /* Pods-ZHW日历推送Tests */ = {
+			isa = PBXGroup;
+			children = (
+				17AE4797FCEDD22C852ED562E2B40C16 /* Pods-ZHW日历推送Tests-acknowledgements.markdown */,
+				D09C2E69E9222F9AD585CF679B1A2580 /* Pods-ZHW日历推送Tests-acknowledgements.plist */,
+				6700258EB7E1D7A2CF60F2CE683599B8 /* Pods-ZHW日历推送Tests-dummy.m */,
+				F76633C4CED717CCCF64A332BEFC6D0E /* Pods-ZHW日历推送Tests-frameworks.sh */,
+				B721E87C5D87CA7D452EDD50CB847364 /* Pods-ZHW日历推送Tests-resources.sh */,
+				CE8A67613B4584FFE5817B03A3FCB8BA /* Pods-ZHW日历推送Tests.debug.xcconfig */,
+				F66CFCD2AA57CE97674C536BE9CDE907 /* Pods-ZHW日历推送Tests.release.xcconfig */,
+			);
+			name = "Pods-ZHW日历推送Tests";
+			path = "Target Support Files/Pods-ZHW日历推送Tests";
+			sourceTree = "<group>";
+		};
+		FB3175C5B53D0CE81FD51D9CFB404CF1 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				45A54ADCEBD7B22F118C7DE35AFBF4E8 /* AFHTTPSessionManager.h */,
+				68D7C5926219E105CF9A92418FD65526 /* AFHTTPSessionManager.m */,
+				42F6E6E338A073C0748B0138A1A0F0F1 /* AFURLSessionManager.h */,
+				F140ECEDE9C9415402ACA029D0EC3F0A /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A41EE4477A8C31F557414CAD8AEDC039 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147132EB8ECC0C9A2997455B4875B27A /* AFHTTPSessionManager.h in Headers */,
+				744BDA42C38330C1E88ECA1FECBFE660 /* AFNetworking.h in Headers */,
+				607E909A1FE0E95FBB7B2E7099262A47 /* AFNetworkReachabilityManager.h in Headers */,
+				0B570DE4FB41EE8963514154DE380813 /* AFSecurityPolicy.h in Headers */,
+				8F377EF0B7A53F1F4E732E1CF0553D2E /* AFURLRequestSerialization.h in Headers */,
+				01D310E2DAC58192E209FFA896339578 /* AFURLResponseSerialization.h in Headers */,
+				4CD3642B812E501998987D3455C4508C /* AFURLSessionManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0935D424CBE494DE1D00A92B5E797C42 /* Pods-ZHW日历推送UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C500A6DED3BC28DBD91CB675DAED1568 /* Build configuration list for PBXNativeTarget "Pods-ZHW日历推送UITests" */;
+			buildPhases = (
+				542A3B8C5D8E789BBBDB0AB55E59BD0C /* Sources */,
+				DB18BB9BCCF9AB5BAC98D39A0785E729 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ZHW日历推送UITests";
+			productName = "Pods-ZHW日历推送UITests";
+			productReference = 90EA3C682D92E30BE2A3B63752441558 /* libPods-ZHW日历推送UITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		66D7F1E6834B8498649140BB967BCB04 /* Pods-ZHW日历推送Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B53221D8778ED00EE974EAC9B7CA3980 /* Build configuration list for PBXNativeTarget "Pods-ZHW日历推送Tests" */;
+			buildPhases = (
+				557FF20BD01A6A622EB4589034B3B087 /* Sources */,
+				00E25C63BE702465796E99999F6088CB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ZHW日历推送Tests";
+			productName = "Pods-ZHW日历推送Tests";
+			productReference = AE5A84D5510E15AB5E6B732B7DCB00C6 /* libPods-ZHW日历推送Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BBC347D7308029F42609C9EB2A0E38E9 /* Pods-ZHW日历推送 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CD5F5396D074F58B09F3C0F988FB0CE /* Build configuration list for PBXNativeTarget "Pods-ZHW日历推送" */;
+			buildPhases = (
+				4B38093B4DCCCC412101EFF62D4A361B /* Sources */,
+				63243CA3A09C09B255EA3D9C53AEEED3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD33286499D7F589A18837FB06BED83E /* PBXTargetDependency */,
+			);
+			name = "Pods-ZHW日历推送";
+			productName = "Pods-ZHW日历推送";
+			productReference = EB3AEEB35835BB25FFD0C4D7BB010EAD /* libPods-ZHW日历推送.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F1CD54B521C05F64664B50B361E42A34 /* AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11319947230CC2946E2E04D50506BB0C /* Build configuration list for PBXNativeTarget "AFNetworking" */;
+			buildPhases = (
+				8C221D26D53B79E867555434CBB25319 /* Sources */,
+				B550EA12C166400B63E74BE77E1D984B /* Frameworks */,
+				A41EE4477A8C31F557414CAD8AEDC039 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNetworking;
+			productName = AFNetworking;
+			productReference = 75F87DAEC6D66328BC28AFD14E3E028D /* libAFNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C2D17567A1E5CD9CECFA0361E3261A4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1CD54B521C05F64664B50B361E42A34 /* AFNetworking */,
+				BBC347D7308029F42609C9EB2A0E38E9 /* Pods-ZHW日历推送 */,
+				66D7F1E6834B8498649140BB967BCB04 /* Pods-ZHW日历推送Tests */,
+				0935D424CBE494DE1D00A92B5E797C42 /* Pods-ZHW日历推送UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B38093B4DCCCC412101EFF62D4A361B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3DA17AB7E04A3A235587CDB30155BF /* Pods-ZHW日历推送-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542A3B8C5D8E789BBBDB0AB55E59BD0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36DA415D346CFD10C5653F546824FF6C /* Pods-ZHW日历推送UITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557FF20BD01A6A622EB4589034B3B087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3186AC1CC6D5165980332A008E9956 /* Pods-ZHW日历推送Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C221D26D53B79E867555434CBB25319 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2972C1C4391A8DAC690E66338E768D3 /* AFHTTPSessionManager.m in Sources */,
+				AEE9A30AE27F735C016C1052B8037D87 /* AFNetworking-dummy.m in Sources */,
+				943B0E841BCF6F8764BDE61E88B6384D /* AFNetworkReachabilityManager.m in Sources */,
+				CC749AC3BA2B4D4B0F1400CF3CCBDEE0 /* AFSecurityPolicy.m in Sources */,
+				3455BE0F9A1389D9FEEDFB3753DC6404 /* AFURLRequestSerialization.m in Sources */,
+				EED4D75C88BE775C747FEB866A070A96 /* AFURLResponseSerialization.m in Sources */,
+				2C0E1B2717D5394E78AD7114040BF551 /* AFURLSessionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD33286499D7F589A18837FB06BED83E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = F1CD54B521C05F64664B50B361E42A34 /* AFNetworking */;
+			targetProxy = F27CA9C79B467A3BB86246BF7FF9F5D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F5A2043EE25F209A0DC43ED9013189B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5595B941500127512821BAD69B7AEEBE /* Pods-ZHW日历推送UITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2274F69625D2AE80A3180CFBB96BB4C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F60F33034D1CF76D658DE3807E2C5C4 /* Pods-ZHW日历推送.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		22B49E7498B21D171CC0E2A85FDC6BA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE8A67613B4584FFE5817B03A3FCB8BA /* Pods-ZHW日历推送Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		284A14E9072826B97B6C699B6DC51D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 800ADDA9CED82078F2E615E0344FBE02 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5D622BA00757EC20ADAD24C580904C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6249DF74E2869177A011A106ADD832CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCF25EEC64EEA3CD873251EEBF4A779B /* Pods-ZHW日历推送.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AB74B5E09B30AE94F1D9671501EA01E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C5B90C540FB90B19D0DD22C8293811F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 800ADDA9CED82078F2E615E0344FBE02 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ECEF48861D7AA35F9A9F2B4BBFA5934C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA2E93053F2498E571B1E383B7EEB533 /* Pods-ZHW日历推送UITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F0315CFB9EA58E936707612F02D98CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F66CFCD2AA57CE97674C536BE9CDE907 /* Pods-ZHW日历推送Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11319947230CC2946E2E04D50506BB0C /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				284A14E9072826B97B6C699B6DC51D82 /* Debug */,
+				C5B90C540FB90B19D0DD22C8293811F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB74B5E09B30AE94F1D9671501EA01E8 /* Debug */,
+				5D622BA00757EC20ADAD24C580904C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CD5F5396D074F58B09F3C0F988FB0CE /* Build configuration list for PBXNativeTarget "Pods-ZHW日历推送" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6249DF74E2869177A011A106ADD832CB /* Debug */,
+				2274F69625D2AE80A3180CFBB96BB4C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B53221D8778ED00EE974EAC9B7CA3980 /* Build configuration list for PBXNativeTarget "Pods-ZHW日历推送Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B49E7498B21D171CC0E2A85FDC6BA9 /* Debug */,
+				F0315CFB9EA58E936707612F02D98CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C500A6DED3BC28DBD91CB675DAED1568 /* Build configuration list for PBXNativeTarget "Pods-ZHW日历推送UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECEF48861D7AA35F9A9F2B4BBFA5934C /* Debug */,
+				0F5A2043EE25F209A0DC43ED9013189B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
